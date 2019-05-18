@@ -1,0 +1,5 @@
+# bundled code
+build/*
+
+# dependencies
+/node_modules

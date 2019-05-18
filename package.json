@@ -1,0 +1,36 @@
+{
+  "name": "react-just-add-water",
+  "version": "1.0.0",
+  "description": "Boilerplate for React application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmaloshtan/react-just-add-water.git"
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "template"
+  ],
+  "author": "tim.maloshtan@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmaloshtan/react-just-add-water/issues"
+  },
+  "homepage": "https://github.com/timmaloshtan/react-just-add-water#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
