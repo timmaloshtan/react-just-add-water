@@ -1,0 +1,25 @@
+$color-react: #00d8ff;
+$color-secondary: #006E83;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-secondary;
+}
+
+.greeting {
+    display: block;
+    padding: 3rem;
+    border-radius: 15px;
+    background-color: $color-react;
+    font-size: 2rem;
+}
