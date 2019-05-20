@@ -1,17 +1,11 @@
-var paragraph = document.createElement('p');
-paragraph.textContent = 'Loading...';
-document.body.append(paragraph);
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function work() {
+const App = () => (
+  <div>️️⚛️You are overReacting⚛️</div>
+);
 
-  var image = document.createElement('img');
-  image.src = 'https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg';
-  image.style.width = '600px';
-  
-  image.onload = function() {
-    document.body.removeChild(paragraph);
-    document.body.append(image);
-  }
-}
-
-setTimeout(work, 1000);
+ReactDOM.render(
+  <App />,
+  document.getElementById('app'),
+);
