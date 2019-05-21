@@ -20,7 +20,7 @@ module.exports = function (env) {
         {
           test: /\.scss$/,
           use: ['style-loader', 'css-loader', 'sass-loader'],
-        }
+        },
       ],
     },
     plugins: [
@@ -36,4 +36,4 @@ module.exports = function (env) {
     },
     devtool: env.development ? 'source-map' : '',
   };
-}
+};

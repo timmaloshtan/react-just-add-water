@@ -4,7 +4,11 @@ import ReactDOM from 'react-dom';
 import './style.scss';
 
 const App = () => (
-  <div class="greeting">⚛️Start building your React app here!⚛️</div>
+  <div className="greeting">
+    <span role="img" aria-label="Atom">⚛️</span>
+      Start building your React app here!
+    <span role="img" aria-label="Atom">⚛️</span>
+  </div>
 );
 
 ReactDOM.render(
